@@ -1,0 +1,33 @@
+{
+  "name": "vue-chat",
+  "version": "1.0.0",
+  "description": "chat example by vue.js + webpack",
+  "main": "main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --quiet",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.0",
+    "css-loader": "^0.21.0",
+    "html-loader": "^0.3.0",
+    "less": "^2.5.1",
+    "less-loader": "^2.2.0",
+    "style-loader": "^0.13.0",
+    "font-loader":"0.1.2",
+    "vue": "^1.0.8",
+    "vue-loader": "^7.0.3",
+    "vue-validator":"^1.4.4",
+    "webpack": "^1.12.6"
+  },
+  "keywords": [
+    "vue",
+    "webpack"
+  ],
+  "author": "Evan You",
+  "license": "MIT"
+}

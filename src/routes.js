@@ -4,13 +4,7 @@ module.exports = function(router) {
                 component: require('./components/home/home.vue')
             },
             '/login': {
-                component: require('./components/users/login/login.vue')
-            },
-            'register': {
-                component: require('./components/users/register/register.vue')
-            },
-            'forget': {
-                component: require('./components/users/forget/forget.vue')
+                component: require('./components/user/login.vue')
             }
         });
 
@@ -19,6 +13,6 @@ module.exports = function(router) {
         });
 
         router.redirect({
-            '*': '/login'
+            '*': '/home'
         })
     };

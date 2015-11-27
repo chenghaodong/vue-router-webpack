@@ -2,6 +2,7 @@
   <div class="pane">
     <p>This is the {{side}} pane!</p>
     <p>{{name}}</p>
+    <router></router>
   </div>
 </template>
 
